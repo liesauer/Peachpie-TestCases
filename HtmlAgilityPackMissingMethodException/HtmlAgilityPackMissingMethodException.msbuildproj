@@ -1,0 +1,19 @@
+<Project Sdk="Peachpie.NET.Sdk/0.9.42">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>program.php</StartupObject>
+    <Description>Simpliest PHP project for .NET Core, a console application.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fizzler.Systems.HtmlAgilityPack" Version="1.2.0" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.7" />
+  </ItemGroup>
+  
+</Project>
