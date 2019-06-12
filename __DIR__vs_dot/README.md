@@ -1,10 +1,9 @@
-## console-app
+# __DIR__vs_dot
 
-Template for creating .NET core console applications in PHP. 
+## 环境
+1. `Peachpie 不明确版本`
 
-### How to run
-1. Install peachpie templates
-2. `dotnet new peachpie-console`
-3. `dotnet restore`
-4.  Modify `program.php` (optional)
-5. `dotnet run`
+## 修复
+
+## 测试用例说明
+对比 `__DIR__` 和 `.` 在Peachpie项目中的不同。
