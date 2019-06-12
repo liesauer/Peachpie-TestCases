@@ -1,0 +1,15 @@
+<Project Sdk="Peachpie.NET.Sdk/0.9.42">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <StartupObject>program.php</StartupObject>
+    <Description>My Package.</Description>
+    <!-- <PackageNameOverride>Company.Vendor.Package</PackageNameOverride> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="**/*.php" />
+  </ItemGroup>
+  
+</Project>
